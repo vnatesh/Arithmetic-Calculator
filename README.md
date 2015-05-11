@@ -6,7 +6,7 @@ This program is a simple symbolic calculator for arithmetic operations. Expressi
 
 example:
 
->>> calc()
+calc()
  (((0-3)/(5+3))*(3-6))
  1.125
    env = {}
