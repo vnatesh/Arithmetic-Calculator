@@ -52,4 +52,22 @@ def testParse():
     print parse(['(', 'fred', '+', 'george', ')'])
     print parse(['(', '(', 'a', '*', 'b', ')', '/', '(', 'cee', '-', 'doh', ')' ,')'])
     print parse(tokenize('((a * b) / (cee - doh))'))
-    print parse(tokenize('(a = (3 * 5))'))
+    print parse(tokenize('(a = (3 * 5))')
+    
+    
+## Test for calc()
+
+# exprs is a list of strings
+# runs calculator on those strings, in sequence, using the same environment
+testExprs = ['(2 + 5)',
+             '(z = 6)',
+             'z',
+             '(w = (z + 1))',
+             'w'
+             ]
+def calcTest(exprs):
+    env = {}
+    for e in exprs:
+        print '%', e                    # e is the experession 
+        print # your expression here
+        print '   env =', env
