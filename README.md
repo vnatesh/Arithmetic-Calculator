@@ -6,15 +6,14 @@ This program is a simple symbolic calculator for arithmetic operations. Expressi
 
 example:
 
-calc()
-
-(((0-3)/(5+3))*(3-6))
- 1.125
+>>>calc()
+$ (((0-3)/(5+3))*(3-6))
+   1.125
    env = {}
- (a=23)
-  None
+$ (a=23)
+   None
    env = {'a': 23.0}
-(b=(a*(((0-3)/(5+3))*(3-6))))
+$ (b=(a*(((0-3)/(5+3))*(3-6))))
    None
    env = {'a': 23.0, 'b': 25.875}
 
